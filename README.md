@@ -1,4 +1,4 @@
-README for Sefra Selenium Hybrid Framework
+Sefra Selenium Hybrid Framework
 ======================================================
 
 Selenium hybrid test framework , proof of concept with

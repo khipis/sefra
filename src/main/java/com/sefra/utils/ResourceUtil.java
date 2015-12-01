@@ -1,6 +1,6 @@
 package com.sefra.utils;
 
-import java.io.*;
+import java.io.File;
 import java.net.URL;
 
 /**
@@ -18,18 +18,6 @@ public class ResourceUtil {
             return null;
         }
         return new File(url.getPath());
-    }
-
-    public static InputStream loadStreamFromResources(String path) {
-        return Thread.currentThread().getContextClassLoader().getResourceAsStream(path);
-    }
-
-    public static void printFile(File file) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(file));
-        String line = null;
-        while ((line = br.readLine()) != null) {
-            System.out.println(line);
-        }
     }
 
 }
